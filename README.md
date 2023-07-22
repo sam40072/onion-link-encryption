@@ -20,7 +20,7 @@ during setup, onionLinks.txt and fluff.txt get filled with fake information, aft
 
 When a link is added, it gets appended to onionLink.txt and the hash of it gets appended to mainFile.txt.
 
-When unhashing, fluff.txt gets compared to mainFile.txt and the links that are found in fluff.txt are eliminated leaving only the real hashes. Next onionLinks.txt gets hashed one by one, comparing it to the original hashes and when there is a match, it is printed to console. 
+When unhashing, fluff.txt gets compared to mainFile.txt and the hashes that are found in fluff.txt are eliminated leaving only the real hashes. Next onionLinks.txt gets hashed one by one, comparing it to the original hashes and when there is a match, it is printed to console. 
 
 # disclaimer
 This was a little project I made becacuse I wanted to try out the argon2 hashing
