@@ -7,7 +7,7 @@ a lightweight encryptor used for hiding onion links
 First you'll need to select the setup option, which will create a folder along with 3 text files.
 You will need to select the amount of fake links and hashes to create, 1000 is a good number because its not too slow, but also not small enough to check by hand.
 
-After the files were created, you can select the option for adding links, it will ask you to put in a link, which will then be stored with all the fake links and a hashed version of the link will be stored with the fake hashes
+After the files were created, you can select the option for adding links, it will ask you to put in a link, which will then be stored with all the fake links and a hashed version of the link will be stored with the fake hashes. Then, both files get shuffled.
 
 When you want to retrieve the links, you'll need to select the unhash option, which will list the original links
 
